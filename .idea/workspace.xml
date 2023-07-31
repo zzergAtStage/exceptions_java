@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Task02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson02/Task03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-exceptions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-exceptions.iml" afterDir="false" />
+    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task 03">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson02/Task03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +59,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson02.Task02">
-    <configuration name="Lesson02.Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Task04">
+    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Printer" />
+      <module name="demo-exceptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson02.Task02" />
       <module name="demo-exceptions" />
       <extension name="coverage">
@@ -80,19 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Printer" />
-      <module name="demo-exceptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomExceptionsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lessonsforqa.lesson1.RandomExceptionsClass" />
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02.Task03" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="Lesson02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,9 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task02" />
+    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02.Task04" />
       <module name="demo-exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task04" />
+        <item itemvalue="Application.Task03" />
         <item itemvalue="Application.Lesson02.Task02" />
         <item itemvalue="JUnit.PrinterTest" />
         <item itemvalue="Application.Printer" />
-        <item itemvalue="Application.RandomExceptionsClass" />
-        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +134,31 @@
       <option name="presentableId" value="Default" />
       <updated>1690478151780</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit Exceptions S02">
+      <option name="closed" value="true" />
+      <created>1690825480978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690825480978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit Exceptions S02" />
+    <MESSAGE value="task 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 03" />
   </component>
 </project>
