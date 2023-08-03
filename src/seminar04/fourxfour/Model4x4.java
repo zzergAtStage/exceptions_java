@@ -16,8 +16,8 @@ public class Model4x4 {
 
     public int calcArraySum(String[][] arr) throws MyArrayDataException{
         int sum = 0;
-        for (int i = 0; i < arr.length - 1 ; i++) {
-            for (int j = 0; j < arr[i].length -1; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 try {
                     sum += Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException e) {
