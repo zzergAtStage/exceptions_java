@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task 04">
-      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar04/SomeExceptionClass.java" afterDir="false" />
+    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task04_2 AutoCloseable exception">
+      <change afterPath="$PROJECT_DIR$/src/seminar04/DivisionByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/FileNotExistsInUserFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/NullMemberArrayPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/fourxfour/Model4x4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/fourxfour/MyArrayDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/fourxfour/MyArraySizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar04/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar04/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -80,9 +79,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SomeExceptionClass">
-    <configuration name="SomeExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar04.SomeExceptionClass" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar04.App" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson02.Task04" />
+    <configuration name="SomeExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar04.SomeExceptionClass" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson02.*" />
+          <option name="PATTERN" value="seminar04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.SomeExceptionClass" />
         <item itemvalue="Application.Task3_03" />
         <item itemvalue="Application.Task3_02" />
         <item itemvalue="Application.Task3_01" />
-        <item itemvalue="Application.Task04" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690828584834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task04_1">
+      <option name="closed" value="true" />
+      <created>1691083759672</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691083759672</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task04_1.2">
+      <option name="closed" value="true" />
+      <created>1691083788544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691083788544</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task04_2 AutoCloseable exception">
+      <option name="closed" value="true" />
+      <created>1691084988752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691084988752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +230,20 @@
     <MESSAGE value="initial commit Exceptions S02" />
     <MESSAGE value="task 03" />
     <MESSAGE value="task 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 04" />
+    <MESSAGE value="task04_1" />
+    <MESSAGE value="task04_1.2" />
+    <MESSAGE value="task04_2 AutoCloseable exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="task04_2 AutoCloseable exception" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/seminar04/fourxfour/Model4x4.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
