@@ -1,14 +1,15 @@
-package Lesson02;
+package lesson02;
 
 public class Task02 {
     public static void main(String[] args) {
-        String[][] arr = {{"1","2"},{"3",null},{"a","6"}};
+        String[][] arr = {{"1", "2"}, {"3", null}, {"a", "6"}};
         System.out.println("Summ of arr: " + sum2(arr));
     }
-    public static int sum2(String[][] arr){
+
+    public static int sum2(String[][] arr) {
         /**
          * 1 1 1 < [0]
-           ^ ^ ^   [0].length
+         ^ ^ ^   [0].length
          * 2 2 2 2 <
          * ^ ^ ^ ^
          */

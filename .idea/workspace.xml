@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task 03">
+    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task 04">
+      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar03/Task3_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar04/SomeExceptionClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/names.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson02/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson02/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson02/Task04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zzergAtStage&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a33b473c-53cc-46d4-a4c1-308cb9b4b447" />
+        <option name="url" value="https://github.com/zzergAtStage/exceptions_java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -59,33 +80,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task04">
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Printer" />
-      <module name="demo-exceptions" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson02.Task02" />
+  <component name="RunManager" selected="Application.SomeExceptionClass">
+    <configuration name="SomeExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar04.SomeExceptionClass" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson02.Task03" />
-      <module name="demo-exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson02.*" />
+          <option name="PATTERN" value="seminar04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson02.Task04" />
+      <option name="MAIN_CLASS_NAME" value="lesson02.Task04" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson02.*" />
+          <option name="PATTERN" value="lesson02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,22 +107,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar03.Task3_01" />
       <module name="demo-exceptions" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar03.Task3_02" />
+      <module name="demo-exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar03.Task3_03" />
+      <module name="demo-exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SomeExceptionClass" />
+        <item itemvalue="Application.Task3_03" />
+        <item itemvalue="Application.Task3_02" />
+        <item itemvalue="Application.Task3_01" />
         <item itemvalue="Application.Task04" />
-        <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Lesson02.Task02" />
-        <item itemvalue="JUnit.PrinterTest" />
-        <item itemvalue="Application.Printer" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690825480978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task 04">
+      <option name="closed" value="true" />
+      <created>1690828384407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690828384407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task 04">
+      <option name="closed" value="true" />
+      <created>1690828584834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690828584834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit Exceptions S02" />
     <MESSAGE value="task 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 03" />
+    <MESSAGE value="task 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 04" />
   </component>
 </project>

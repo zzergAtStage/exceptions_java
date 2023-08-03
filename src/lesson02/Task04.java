@@ -1,4 +1,4 @@
-package Lesson02;
+package lesson02;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class Task04 {
         InputStream inputStream;
         try {
             String[] strings = {"asdf", "asdf"};
-            String strings1 = strings[strings.length-1];
+            String strings1 = strings[strings.length - 1];
             test();
             int a = 1 / 0;
             inputStream = new FileInputStream("sdafgdsaf");

@@ -1,4 +1,4 @@
-package Lesson02;
+package lesson02;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,11 +14,12 @@ public class Task03 {
 
     public static void main(String[] args) {
         HashMap<String, String> names = readData(PATH_NAME);
-        System.out.println("Result is: " + names.toString());
+        System.out.println("Result is: " + names);
 
         //writing back
         System.out.println(flushDataNewFile(names, PATH_NAME));
     }
+
     public static HashMap<String, String> readData(String PATH_NAME) {
         HashMap<String, String> names = new HashMap<>();
         try {
@@ -32,7 +33,7 @@ public class Task03 {
                 val1 = data[0];
                 if (data[1].equals("?")) {
                     //подсчет длины строки
-                    val2 =  String.valueOf(data[0].length());
+                    val2 = String.valueOf(data[0].length());
                 } else {
                     try {
                         int val2_1 = Integer.parseInt(data[1]);
@@ -51,13 +52,13 @@ public class Task03 {
         return names;
     }
 
-    public static String flushDataNewFile(HashMap<String,String> names, String path) {
+    public static String flushDataNewFile(HashMap<String, String> names, String path) {
         try {
             File file = new File(PATH_NAME);
             FileWriter fw = new FileWriter(file);
             for (Map.Entry<String, String> element : names.entrySet()
             ) {
-                String row = element.getKey() + "=" + element.getValue() +  "\n";
+                String row = element.getKey() + "=" + element.getValue() + "\n";
                 fw.write(row);
             }
             fw.close();
