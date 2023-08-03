@@ -10,13 +10,13 @@ public class SomeExceptionClass{
 //    Вызовите этот метод из main и обработайте в нем исключение, которое
 //    вызвал метод doSomething().
     public static void main(String[] args) {
-   //     try {
+        try {
             doSomething();
-//        } catch (IOException e) {
-//            System.out.println(" Изловили собственно сгененрированное исключение: " + e.getMessage());
-//        }
+        } catch (IOException e) {
+            System.out.println(" Изловили собственно сгененрированное исключение: " + e.getMessage());
+        }
     }
-    public static void doSomething() throws NullPointerException {
-        throw new NullPointerException("Some exception");
+    public static void doSomething() throws IOException {
+        throw new IOException("Some exception");
     }
 }
