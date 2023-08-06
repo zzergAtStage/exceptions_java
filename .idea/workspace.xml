@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task04_3 custom array and exceptions&#10;finally">
-      <change afterPath="$PROJECT_DIR$/Test/seminar03/Task3_04Test.java" afterDir="false" />
+    <list default="true" id="64d2cd33-1f7e-4c80-a61c-ef13670c823a" name="Changes" comment="task04_4 empty string exception">
+      <change afterPath="$PROJECT_DIR$/src/finalhw/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/FileFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/FileSavingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/FileStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/PersonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/SavePersonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalhw/UserInputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar03/Task3_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar03/Task3_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar04/fourxfour/Model4x4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar04/fourxfour/Model4x4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,22 +82,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task3_04Test">
+  <component name="RunManager" selected="Application.finalhw.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar04.App" />
-      <module name="demo-exceptions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar04.SomeExceptionClass" />
       <module name="demo-exceptions" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +102,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="seminar03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finalhw.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalhw.App" />
+      <module name="demo-exceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalhw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.finalhw.App" />
         <item itemvalue="JUnit.Task3_04Test" />
         <item itemvalue="JUnit.Task3_04Test.getUserInput" />
         <item itemvalue="Application.Task3_04" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.SomeExceptionClass" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691087825139</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="task04_4 empty string exception">
+      <option name="closed" value="true" />
+      <created>1691163396981</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691163396981</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +267,7 @@
     <MESSAGE value="task04_2 AutoCloseable exception" />
     <MESSAGE value="task04_3 custom array and exceptions" />
     <MESSAGE value="task04_3 custom array and exceptions&#10;finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="task04_3 custom array and exceptions&#10;finally" />
+    <MESSAGE value="task04_4 empty string exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="task04_4 empty string exception" />
   </component>
 </project>

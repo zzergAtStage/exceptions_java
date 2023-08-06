@@ -1,0 +1,2 @@
+Person{name='sun', surname='of', phoneNumber=900, dateOfBirth=Fri Feb 22 00:00:00 CET 2002}
+Person{name='joke', surname='of', phoneNumber=900, dateOfBirth=Sat Feb 22 00:00:00 CET 223}
